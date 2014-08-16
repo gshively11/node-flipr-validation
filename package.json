@@ -1,0 +1,46 @@
+{
+  "name": "flipr-validation",
+  "version": "0.1.0",
+  "description": "Validation for flipr config data.  Use this to catch bad configs before they go live.",
+  "main": "lib/validate-config.js",
+  "scripts": {
+    "jshint": "jshint lib test",
+    "debug": "mocha --debug-brk",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "report": "istanbul report cobertura",
+    "test": "npm run-script jshint && npm run-script cover && npm run-script report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gshively11/node-flipr-validation.git"
+  },
+  "keywords": [
+    "feature",
+    "ab",
+    "flags",
+    "configuration",
+    "config",
+    "flip",
+    "flipping"
+  ],
+  "author": {
+    "name": "Grant Shively",
+    "email": "gshively@godaddy.com"
+  },
+  "homepage": "https://github.com/gshively11/node-flipr-validation",
+  "bugs": "https://github.com/gshively11/node-flipr-validation/issues",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "istanbul": "^0.2.16",
+    "jshint": "^2.5.2",
+    "mocha": "^1.20.1",
+    "mocha-istanbul": "^0.2.0",
+    "proxyquire": "^1.0.1",
+    "sinon": "^1.10.2",
+    "sinon-chai": "^2.5.0"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
