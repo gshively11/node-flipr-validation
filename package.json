@@ -15,13 +15,9 @@
     "url": "git@github.com:gshively11/node-flipr-validation.git"
   },
   "keywords": [
-    "feature",
-    "ab",
-    "flags",
-    "configuration",
-    "config",
-    "flip",
-    "flipping"
+    "flipr",
+    "validation",
+    "validate"
   ],
   "author": {
     "name": "Grant Shively",
