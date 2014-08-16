@@ -2,7 +2,7 @@
 
 var chai = require('chai');
 var expect = chai.expect;
-var sut = require('../../../lib/validate/validate-values-by-rules/validate-value-by-rule');
+var sut = require('../../lib/validate-values-by-rules/validate-value-by-rule');
 
 describe('validate-value-by-rule', function(){
   it('returns untouched accumulator if value is not object', function(){

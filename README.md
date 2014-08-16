@@ -3,7 +3,7 @@ node-flipr-validation
 
 This project is part of the [flipr family](https://github.com/godaddy/node-flipr).
 
-node-flipr-validation provides validation for flipr config data.  You should use it to catch bad config changes before they are deployed.  Bad config deployments make flipr very [unhappy](http://i.imgur.com/GIBD0X4.gif).
+node-flipr-validation provides validation for flipr config data and rules.  You should use it to catch bad config changes before they are deployed.  Bad config deployments make flipr very [unhappy](http://i.imgur.com/GIBD0X4.gif).
 
 ![node-flipr-validation](/flipr.png?raw=true "node-flipr-validation")
 
